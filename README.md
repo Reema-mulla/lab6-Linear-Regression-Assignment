@@ -1,27 +1,22 @@
-# lab6-Logistic-Regression-Assignment
-# Logistic Regression Assignment
+# Linear Regression with Python
 
-## Overview
-This project uses Logistic Regression to predict whether a user will click on an advertisement based on features such as age, income, and internet usage.
-
-## Dataset
-The dataset contains user information including:
-- Age
-- Area Income
-- Daily Internet Usage
-- Daily Time Spent on Site
-- Gender (Male)
-- Clicked on Ad (target)
+This project applies Linear Regression on the Ecommerce Customers dataset.
 
 ## Steps
-1. Data loading and exploration
-2. Data visualization
-3. Train-test split
-4. Model training using Logistic Regression
-5. Predictions and evaluation
+- Load and explore the dataset
+- Check for missing values
+- Select features and target
+- Split the data into training and testing sets
+- Train a Linear Regression model
+- Evaluate the model using MAE, MSE, and RMSE
 
-## Results
-The model was evaluated using confusion matrix and classification report. The results show that logistic regression can effectively classify user behavior.
+## Dataset
+The target variable is:
+- Yearly Amount Spent
 
-## Conclusion
-This assignment demonstrates how logistic regression can be used for classification problems and highlights the importance of data preprocessing and evaluation.
+The features used are:
+- Avg. Session Length
+- Time on App
+- Time on Website
+- Length of Membership
+
